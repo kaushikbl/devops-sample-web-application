@@ -20,18 +20,18 @@
   </build>
   
   <distributionManagement>
-              <repository>
-	      <id>nexus</id>
-	      <name>maven-WebApp-snapshot</name>
-	      <url>http://13.127.72.189:9036/repository/maven-WebApp-snapshot/</url>
-	    </repository>
-	    
-	    <snapshotRepository>
+           <snapshotRepository>
 	      <id>nexus</id>
 	      <name>maven-WebApp-release</name>
 	      <url>http://13.127.72.189:9036/repository/maven-WebApp-release/</url>
-	   </snapshotRepository>
-  
+	   </snapshotRepository> 
+	  
+	   <repository>
+	      <id>nexus</id>
+	      <name>maven-WebApp-snapshot</name>
+	      <url>http://13.127.72.189:9036/repository/maven-WebApp-snapshot/</url>
+	   </repository>
+	  
   </distributionManagement>
 
    <properties>
