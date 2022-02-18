@@ -5,7 +5,7 @@
   <artifactId>WebApp</artifactId>
   <packaging>war</packaging>
   <version>1.0-snapshot</version>
-  <name>WebApp Maven Webapp</name>
+  <name>devops WebApp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   <build>
-    <finalName>WebApp</finalName>
+    <finalName>devops WebApp</finalName>
   </build>
   
   <distributionManagement>
